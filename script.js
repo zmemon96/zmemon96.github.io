@@ -54,12 +54,12 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
       yesButton.style.fontSize = `${fontSize}px`;
   
       //no button text
-      const messages = ["No","Are you sure?","Babyy please?","Don't do this to me :(","Say yes or else...",];
+      const messages = ["No","Are you sure?","Babyy please?"];
   
       if (noClickCount === 4) {
         const newButton = document.createElement("button");
         newButton.id = "runawayButton";
-        newButton.textContent = "Say yes or else...";
+        newButton.textContent = "No;
         newButton.style.position = "absolute";
         const yesButtonRect = yesButton.getBoundingClientRect();
         newButton.style.top = `${yesButtonRect.bottom + 10}px`;
@@ -154,4 +154,5 @@ const getRandomNumber = (num) => {return Math.floor(Math.random() * (num + 1));}
   
     move();
   }
+
   

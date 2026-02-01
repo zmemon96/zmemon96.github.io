@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(180deg, rgba(255, 208, 229, 1) 0%, rgba(255, 232, 242, 1) 36%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 208, 229, 2) 0%, rgba(255, 232, 242, 2) 36%, rgba(255, 255, 255, 1) 100%);
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -127,3 +127,4 @@ img[src="./images/baddie.jpg"] {
         transform: translateY(-10px);
     }
 }
+
